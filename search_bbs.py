@@ -177,9 +177,9 @@ def run(data_type, IOU_threshold, data, graph):
     return matched_ids
 
 if __name__=='__main__':
-    bolt = 'bolt://172.18.32.89:7687'
-    user = 'neo4j'
-    passwd = 'casia@1234'
+    bolt = 'bolt://xxx.xx.xx.xx:xxxx'
+    user = 'xxxx'
+    passwd = 'xxxxxxxx'
     graph = connectGraph(bolt, user, passwd)
 
     data_filename = "query_data/positive_boundingboxes.csv"
